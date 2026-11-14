@@ -1,0 +1,25 @@
+add_rules("mode.debug", "mode.release")
+
+target("test1")
+    set_kind("binary")
+    add_files("tests/test1.cpp")
+    add_includedirs(".")
+target_end()
+
+target("test2")
+    set_kind("binary")
+    add_files("tests/test2.cpp")
+    add_includedirs(".")
+target_end()
+
+target("test3")
+    set_kind("binary")
+    add_files("tests/test3.cpp")
+    add_includedirs(".")
+target_end()
+
+target("test4")
+    set_kind("binary")
+    add_files("tests/test4.cpp")
+    add_includedirs(".")
+target_end()
